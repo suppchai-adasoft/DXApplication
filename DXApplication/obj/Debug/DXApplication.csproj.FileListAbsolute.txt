@@ -42,4 +42,7 @@ C:\Users\Max\source\repos\DXApplication\DXApplication\obj\Debug\DXApplication.cs
 C:\Users\Max\source\repos\DXApplication\DXApplication\obj\Debug\DXApplic.51FCB86D.Up2Date
 C:\Users\Max\source\repos\DXApplication\DXApplication\obj\Debug\DXApplication.exe
 C:\Users\Max\source\repos\DXApplication\DXApplication\obj\Debug\DXApplication.pdb
-C:\Users\Max\source\repos\DXApplication\DXApplication\obj\Debug\DXApplication.wMain.resources
+C:\Users\Max\source\repos\DXApplication\DXApplication\obj\Debug\DXApplication.wMainForm.resources
+C:\Users\Max\source\repos\DXApplication\DXApplication\bin\Debug\AdaImage\greencurry.jpg
+C:\Users\Max\source\repos\DXApplication\DXApplication\bin\Debug\AdaImage\padthai.jpg
+C:\Users\Max\source\repos\DXApplication\DXApplication\obj\Debug\DXApplication.wAddMenuItemForm.resources

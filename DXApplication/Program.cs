@@ -18,7 +18,7 @@ namespace DXApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new wMain());
+            Application.Run(new wMainForm());
         }
     }
 }

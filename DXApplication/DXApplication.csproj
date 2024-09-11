@@ -59,6 +59,12 @@
     <Compile Include="Models\cCustomizationValue.cs" />
     <Compile Include="Models\cIngredient.cs" />
     <Compile Include="Models\cMenuItem.cs" />
+    <Compile Include="wAddMenuItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wAddMenuItemForm.Designer.cs">
+      <DependentUpon>wAddMenuItemForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="wMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="wAddMenuItemForm.resx">
+      <DependentUpon>wAddMenuItemForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="wMain.resx">
       <DependentUpon>wMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,7 +100,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="AdaImage\greencurry.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AdaImage\padthai.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
